@@ -1,0 +1,11 @@
+input, select{
+	background-color: yellow;
+}
+
+form input[name=surname]{
+	font-weight: bold;
+}
+
+div#instructions{
+	border: 3px solid black;
+}

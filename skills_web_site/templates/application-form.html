@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+	<head>
+        <link rel="stylesheet" type="text/css" href="static/style.css" />
+		<title>Skills Test: The Web Years</title>
+	</head>
+	<body>
+		<h1>Skills Test: The Web Years</h1>
+		<div id="instructions">Can you test your skills? Are you ready for the web of the future? The future will be webified. There are only a few places left. Select your role for the future of the web. The salary will also be an option. Do you have a name? A name is required for web access. Provide value for all forms. There will be no second chances. Are your skills ready for the future of the web? Are you?</div>
+		<form action="/application" method="post">
+			<label>First Name: <input type="text" name="given-name"></label><span id="aftergiven"></span><br>
+			<label>Last Name: <input type="text" name="surname"></label><span id="aftersur"></span><br>
+			<label>Salary Requirement: <input type="text" name="salary"></label><span id="aftersalary"></span><br>
+			<label>Applying For: <select name="job">
+				<option value=""></option>
+				<option value="Software Engineer">Software Engineer</option>
+				<option value="QA Engineer">QA Engineer</option>
+				<option value="Product Manager">Product Manager</option>
+			</select></label><span id="afterjob"></span><br>
+		<input type="submit">
+		</form>
+	</body>
+</html>
